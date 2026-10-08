@@ -1,0 +1,12 @@
+{
+  "targets": [
+    "示例好友",
+    "示例群聊"
+  ],
+  "output_dir": "D:\\WeChatExport",
+  "exclude_types": [
+    "视频"
+  ],
+  "write_json": true,
+  "write_txt": true
+}

@@ -1,0 +1,40 @@
+# Python
+.venv/
+.venv*/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local config (may contain private chat names / local paths)
+config.json
+my-config.json
+
+# Exported WeChat data
+exports/
+output/
+WeChatExport/
+*_全部历史*.json
+*_全部历史*.txt
+wechat_export_*.json
+_raw_*.json
+*.db
+*.sqlite
+*.sqlite3
+
+# WeChat local databases / keys
+xwechat_files/
+db_storage/
+keys/
+wechatauto_keys/
+*.dat
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
